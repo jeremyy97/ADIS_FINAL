@@ -67,10 +67,147 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Acerca.aspx" />
+    <Content Include="Carrera.aspx" />
+    <Content Include="Carreras.aspx" />
+    <Content Include="Contacto.aspx" />
+    <Content Include="images\about.jpg" />
+    <Content Include="images\agent_1.jpg" />
+    <Content Include="images\blog.jpg" />
+    <Content Include="images\blog_1.jpg" />
+    <Content Include="images\blog_2.jpg" />
+    <Content Include="images\blog_3.jpg" />
+    <Content Include="images\camera.svg" />
+    <Content Include="images\contact_image.jpg" />
+    <Content Include="images\contract.svg" />
+    <Content Include="images\directions.svg" />
+    <Content Include="images\duplex.svg" />
+    <Content Include="images\envelope-2.svg" />
+    <Content Include="images\envelope.svg" />
+    <Content Include="images\extra.jpg" />
+    <Content Include="images\home.svg" />
+    <Content Include="images\hot.jpg" />
+    <Content Include="images\house.svg" />
+    <Content Include="images\house2.svg" />
+    <Content Include="images\houses.svg" />
+    <Content Include="images\icon_1.png" />
+    <Content Include="images\icon_2.png" />
+    <Content Include="images\icon_2_large.png" />
+    <Content Include="images\icon_3.png" />
+    <Content Include="images\icon_3_large.png" />
+    <Content Include="images\icon_4.png" />
+    <Content Include="images\icon_4_large.png" />
+    <Content Include="images\icon_5.png" />
+    <Content Include="images\icon_5_large.png" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\intro.jpg" />
+    <Content Include="images\listing.jpg" />
+    <Content Include="images\listings.jpg" />
+    <Content Include="images\listing_1.jpg" />
+    <Content Include="images\listing_2.jpg" />
+    <Content Include="images\listing_3.jpg" />
+    <Content Include="images\listing_4.jpg" />
+    <Content Include="images\listing_5.jpg" />
+    <Content Include="images\listing_6.jpg" />
+    <Content Include="images\listing_7.jpg" />
+    <Content Include="images\listing_8.jpg" />
+    <Content Include="images\listing_9.jpg" />
+    <Content Include="images\location.svg" />
+    <Content Include="images\phone-call-2.svg" />
+    <Content Include="images\phone-call.svg" />
+    <Content Include="images\placeholder.svg" />
+    <Content Include="images\placeholder_2.svg" />
+    <Content Include="images\play.png" />
+    <Content Include="images\prize.svg" />
+    <Content Include="images\realtor_1.jpg" />
+    <Content Include="images\realtor_2.jpg" />
+    <Content Include="images\realtor_3.jpg" />
+    <Content Include="images\rent.svg" />
+    <Content Include="images\search.png" />
+    <Content Include="images\service_1.png" />
+    <Content Include="images\service_2.png" />
+    <Content Include="images\service_3.png" />
+    <Content Include="images\service_4.png" />
+    <Content Include="images\service_5.png" />
+    <Content Include="images\service_6.png" />
+    <Content Include="images\testimonials.jpg" />
+    <Content Include="images\video.jpg" />
     <Content Include="Index.aspx" />
+    <Content Include="plugins\colorbox\colorbox.css" />
+    <Content Include="plugins\colorbox\images\border.png" />
+    <Content Include="plugins\colorbox\images\controls.png" />
+    <Content Include="plugins\colorbox\images\loading.gif" />
+    <Content Include="plugins\colorbox\images\loading_background.png" />
+    <Content Include="plugins\colorbox\images\overlay.png" />
+    <Content Include="plugins\colorbox\jquery.colorbox-min.js" />
+    <Content Include="plugins\easing\easing.js" />
+    <Content Include="plugins\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="plugins\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="plugins\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="plugins\greensock\animation.gsap.min.js" />
+    <Content Include="plugins\greensock\ScrollToPlugin.min.js" />
+    <Content Include="plugins\greensock\TimelineMax.min.js" />
+    <Content Include="plugins\greensock\TweenMax.min.js" />
+    <Content Include="plugins\Isotope\fitcolumns.js" />
+    <Content Include="plugins\Isotope\isotope.pkgd.min.js" />
+    <Content Include="plugins\Isotope\masonry-horizontal.js" />
+    <Content Include="plugins\Isotope\packery-mode.pkgd.min.js" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\ajax-loader.gif" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\animate.css" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\owl.carousel.css" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\owl.carousel.js" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\owl.theme.default.css" />
+    <Content Include="plugins\OwlCarousel2-2.3.4\owl.video.play.png" />
+    <Content Include="plugins\parallax-js-master\parallax.min.js" />
+    <Content Include="plugins\progressbar\progressbar.min.js" />
+    <Content Include="plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="styles\about.css" />
+    <Content Include="styles\about_responsive.css" />
+    <Content Include="styles\blog.css" />
+    <Content Include="styles\blog_responsive.css" />
+    <Content Include="styles\bootstrap-4.1.2\bootstrap.min.css" />
+    <Content Include="styles\bootstrap-4.1.2\bootstrap.min.js" />
+    <Content Include="styles\bootstrap-4.1.2\popper.js" />
+    <Content Include="styles\contact.css" />
+    <Content Include="styles\contact_responsive.css" />
+    <Content Include="styles\listings.css" />
+    <Content Include="styles\listings_responsive.css" />
+    <Content Include="styles\main_styles.css" />
+    <Content Include="styles\responsive.css" />
+    <Content Include="styles\single.css" />
+    <Content Include="styles\single_responsive.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acerca.aspx.cs">
+      <DependentUpon>Acerca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acerca.aspx.designer.cs">
+      <DependentUpon>Acerca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carrera.aspx.cs">
+      <DependentUpon>Carrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrera.aspx.designer.cs">
+      <DependentUpon>Carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carreras.aspx.cs">
+      <DependentUpon>Carreras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carreras.aspx.designer.cs">
+      <DependentUpon>Carreras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -82,6 +219,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="plugins\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\core.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\list.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\path.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
