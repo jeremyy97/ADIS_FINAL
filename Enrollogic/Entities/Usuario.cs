@@ -16,5 +16,10 @@ namespace Entities
         int tipo { set; get; }
         string usuario { set; get; }
         string contrasenna { set; get; }
+
+        public Usuario()
+        {
+
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace BusinessLogic
 {
     public class Login
     {
+        public Usuario LogIn(string usuario, string contrasenna)
+        {
+            return null;
+        }
     }
 }
