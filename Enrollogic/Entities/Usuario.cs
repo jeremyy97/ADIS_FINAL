@@ -14,8 +14,8 @@ namespace Entities
         string correo { set; get; }
         string telefono { set; get; }
         int tipo { set; get; }
-        string usuario { set; get; }
-        string contrasenna { set; get; }
+        public string usuario { set; get; }
+        public string contrasenna { set; get; }
 
         public Usuario()
         {
