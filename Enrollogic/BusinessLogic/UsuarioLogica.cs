@@ -18,7 +18,7 @@ namespace BusinessLogic
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                usuarios = conn.Query<Usuario>("SELECT * from [Enrollogic_DB].[dbo].[Usuario];").ToList();
+                usuarios = conn.Query<Usuario>("SELECT Id, Nombre, Apellido, Correo, Telefono, Tipo, NombreUsuario, Contrasenna from [Enrollogic_DB].[dbo].[Usuario];").ToList();
             }
         }
     }

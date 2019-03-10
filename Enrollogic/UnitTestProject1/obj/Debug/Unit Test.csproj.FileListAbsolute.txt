@@ -3,8 +3,6 @@ C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\UnitTestProject1.dll
-C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\BusinessLogic.dll
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Dapper.dll
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Entities.dll
@@ -17,5 +15,7 @@ C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug\Unit Test.csproj.CopyComplete
-C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug\UnitTestProject1.dll
-C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\UnitTest.dll
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\bin\Debug\UnitTest.pdb
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug\UnitTest.dll
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\UnitTestProject1\obj\Debug\UnitTest.pdb

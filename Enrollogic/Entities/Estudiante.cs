@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    class Estudiante : Usuario
+    public class Estudiante : Usuario
     {
-        string carrera { set; get; }
+        public string Carrera { set; get; }
+
+        public Estudiante(string carrera, int id, string nombre, string apellido, string correo, int telefono, int tipo, string nombreUsuario, string contrasenna) :base(id, nombre, apellido, correo, telefono,tipo, nombreUsuario, contrasenna)
+        {
+            Carrera = carrera;
+        }
     }
 }

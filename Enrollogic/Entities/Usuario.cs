@@ -8,18 +8,25 @@ namespace Entities
 {
     public class Usuario
     {
-        int id { set; get; }
-        string nombre { set; get; }
-        string apellido { set; get; }
-        string correo { set; get; }
-        string telefono { set; get; }
-        int tipo { set; get; }
-        public string usuario { set; get; }
-        public string contrasenna { set; get; }
+        public int Id { set; get; }
+        public string Nombre { set; get; }
+        public string Apellido { set; get; }
+        public string Correo { set; get; }
+        public int Telefono { set; get; }
+        public int Tipo { set; get; }
+        public string NombreUsuario { set; get; }
+        public string Contrasenna { set; get; }
 
-        public Usuario()
+        public Usuario(int id, string nombre, string apellido, string correo, int telefono, int tipo, string nombreUsuario, string contrasenna)
         {
-
+            Id = id;
+            Nombre = nombre;
+            Apellido = apellido;
+            Correo = correo;
+            Telefono = telefono;
+            Tipo = tipo;
+            NombreUsuario = nombreUsuario;
+            Contrasenna = contrasenna;
         }
     }
 }

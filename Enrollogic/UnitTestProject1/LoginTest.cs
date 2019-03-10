@@ -21,7 +21,7 @@ namespace UnitTestProject1
 
             usuario = logica.LogIn("user","123");
 
-             Assert.IsNotNull(usuario);
+             Assert.IsNotNull(usuario,"Es nulo");
         }
     }
 }

@@ -14,7 +14,7 @@ namespace BusinessLogic
             UsuarioLogica logica = new UsuarioLogica();
             foreach (Usuario u in UsuarioLogica.usuarios)
             {
-                if (u.usuario == usuario && u.contrasenna == contrasenna)
+                if (u.NombreUsuario == usuario && u.Contrasenna == contrasenna)
                 {
                     return u;
                 }
