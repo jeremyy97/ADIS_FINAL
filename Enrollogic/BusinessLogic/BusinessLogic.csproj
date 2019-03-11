@@ -56,6 +56,7 @@
     <Compile Include="PreferenciaLogica.cs" />
     <Compile Include="ProfesorLogica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SAdminLogica.cs" />
     <Compile Include="UsuarioLogica.cs" />
   </ItemGroup>
   <ItemGroup>

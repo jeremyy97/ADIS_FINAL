@@ -74,6 +74,9 @@
     <Content Include="Carrera.aspx" />
     <Content Include="Carreras.aspx" />
     <Content Include="Contacto.aspx" />
+    <Content Include="CrearAdministrativo.aspx" />
+    <Content Include="CrearEstudiante.aspx" />
+    <Content Include="CrearProfesor.aspx" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
@@ -81,6 +84,7 @@
     <Content Include="fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
     <Content Include="fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
     <Content Include="fonts\montserrat\OFL.txt" />
+    <Content Include="HomeSAdmin.aspx" />
     <Content Include="images\about.jpg" />
     <Content Include="images\acercadeulacit.jpg" />
     <Content Include="images\adminNegocios.jpeg" />
@@ -287,6 +291,34 @@
     </Compile>
     <Compile Include="Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearAdministrativo.aspx.cs">
+      <DependentUpon>CrearAdministrativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearAdministrativo.aspx.designer.cs">
+      <DependentUpon>CrearAdministrativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearEstudiante.aspx.cs">
+      <DependentUpon>CrearEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearEstudiante.aspx.designer.cs">
+      <DependentUpon>CrearEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearProfesor.aspx.cs">
+      <DependentUpon>CrearProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearProfesor.aspx.designer.cs">
+      <DependentUpon>CrearProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeSAdmin.aspx.cs">
+      <DependentUpon>HomeSAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeSAdmin.aspx.designer.cs">
+      <DependentUpon>HomeSAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

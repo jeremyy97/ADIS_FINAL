@@ -1,7 +1,10 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Enrollogic</title>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeSAdmin.aspx.cs" Inherits="Enrollogic.HomeSAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SAdmin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Enrollogic - Una plataforma para los estudiantes de ULACIT">
@@ -16,8 +19,8 @@
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
-
-    <div class="super_container">
+    <form id="form1" runat="server">
+        <div class="super_container">
         <div class="super_overlay"></div>
 
         <!-- Header -->
@@ -25,44 +28,7 @@
         <header class="header">
 
             <!-- Header Bar -->
-            <div class="header_bar d-flex flex-row align-items-center justify-content-start">
-                <div class="header_list">
-                    <ul class="d-flex flex-row align-items-center justify-content-start">
-                        <!-- Phone -->
-                        <li class="d-flex flex-row align-items-center justify-content-start">
-                            <div><img src="images/phone-call.svg" alt=""></div>
-                            <span>(506) 2523-4000</span>
-                        </li>
-                        <!-- Address -->
-                        <li class="d-flex flex-row align-items-center justify-content-start">
-                            <div><img src="images/placeholder.svg" alt=""></div>
-                            <span>Urbanización Tournón, San José</span>
-                        </li>
-                        <!-- Email -->
-                        <li class="d-flex flex-row align-items-center justify-content-start">
-                            <div><img src="images/envelope.svg" alt=""></div>
-                            <span>info@ulacit.ac.cr</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
-                    <div class="social">
-                        <ul class="d-flex flex-row align-items-center justify-content-start">
-                            <li><a href="https://www.facebook.com/ulacitcostarica/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="https://twitter.com/ulacitcostarica?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/ulacitcr/?hl=es-la"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/ulacitcostarica/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCbcGsttMQC9H9eBPY1U59BA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="log_reg d-flex flex-row align-items-center justify-content-start">
-                        <ul class="d-flex flex-row align-items-start justify-content-start">
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="#">Register</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            
 
             <!-- Header Content -->
             <div class="header_content d-flex flex-row align-items-center justify-content-start">
@@ -70,13 +36,13 @@
                 <nav class="main_nav">
                     <ul class="d-flex flex-row align-items-start justify-content-start">
                         <li class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="acerca.html">Acerca de</a></li>
-                        <li><a href="carreras.html">Carreras</a></li>
-                        <li><a href="blog.html">Noticias</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="CrearEstudiante.aspx">Crear Estudiante</a></li>
+                        <li><a href="CrearProfesor.aspx">Crear Profesor</a></li>
+                        <li><a href="CrearAdministrativo.aspx">Crear Administrativo</a></li>
+                        <li align="right"><a href="Login.aspx">Cerrar Sesion</a></li>
                     </ul>
                 </nav>
-                <div class="submit ml-auto"><a href="carreras.html">Buscar carreras</a></div>
+                
                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
             </div>
 
@@ -544,5 +510,6 @@
             <script src="plugins/parallax-js-master/parallax.min.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
             <script src="js/custom.js"></script>
+    </form>
 </body>
 </html>
