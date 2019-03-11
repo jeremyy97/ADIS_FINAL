@@ -19,7 +19,7 @@ namespace Enrollogic
 
         protected void btnCrearProfesor_Click(object sender, EventArgs e)
         {
-            Profesor profesor = logica.crearProfesor(txtFacultad.Text, Convert.ToInt32(txtId.Text), txtNombre.Text, txtNombre.Text, txtCorreo.Text, Convert.ToInt32(txtTelefono.Text), 1, txtUsuario.Text, txtContrasenna.Text);
+            Profesor profesor = logica.crearProfesor(txtFacultad.Text, Convert.ToInt32(txtId.Text), txtNombre.Text, txtNombre.Text, txtCorreo.Text, Convert.ToInt32(txtTelefono.Text), 2, txtUsuario.Text, txtContrasenna.Text);
             if (profesor != null)
                 lblMensaje.Text = "El profesor " + profesor.Nombre + " " + profesor.Apellido + "(" + profesor.Id + ") fue creado con exito";
             else

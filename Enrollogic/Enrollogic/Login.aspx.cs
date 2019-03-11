@@ -30,11 +30,11 @@ namespace Enrollogic
                 {
                     if(usuario.Tipo == 2)
                     {
-
+                        Response.Redirect("HomeProfesor.aspx");
                     }
                     else
                     {
-
+                        Response.Redirect("HomeProfesor.aspx");
                     }
                 }
             }

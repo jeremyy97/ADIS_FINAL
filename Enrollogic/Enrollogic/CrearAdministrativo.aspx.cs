@@ -19,7 +19,7 @@ namespace Enrollogic
 
         protected void btnCrearAdministrativo_Click(object sender, EventArgs e)
         {
-            Administrativo administrativo = logica.crearAdministrador(txtCargo.Text, Convert.ToInt32(txtId.Text), txtNombre.Text, txtNombre.Text, txtCorreo.Text, Convert.ToInt32(txtTelefono.Text), 1, txtUsuario.Text, txtContrasenna.Text);
+            Administrativo administrativo = logica.crearAdministrador(txtCargo.Text, Convert.ToInt32(txtId.Text), txtNombre.Text, txtNombre.Text, txtCorreo.Text, Convert.ToInt32(txtTelefono.Text), 3, txtUsuario.Text, txtContrasenna.Text);
             if (administrativo != null)
                 lblMensaje.Text = "El administrativo " + administrativo.Nombre + " " + administrativo.Apellido + "(" + administrativo.Id + ") fue creado con exito";
             else

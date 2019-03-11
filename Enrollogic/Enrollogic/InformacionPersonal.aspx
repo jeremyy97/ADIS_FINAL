@@ -115,7 +115,7 @@
         
             <form class="form-horizontal">
 <fieldset>
-    <br /><br /><br />
+    <br /><br /><br /><br /><br />
 <!-- Form Name -->
 <legend>Informacion Personal</legend>
 
@@ -161,7 +161,7 @@
 
 <!-- Button (Double) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="button1id">Double Button</label>
+  <label class="col-md-4 control-label" for="button1id"></label>
   <div class="col-md-8">
       <asp:Button ID="btnActualizarInformacion" runat="server" Text="Actualizar Informacion"  class="btn btn-primary" OnClick="btnActualizarInformacion_Click"/>
       <asp:Button ID="Cancelar" runat="server" Text="Cancelar"  class="btn btn-primary"/><br />
