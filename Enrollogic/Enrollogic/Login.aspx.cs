@@ -22,7 +22,21 @@ namespace Enrollogic
             Usuario usuario = login.LogIn(txtUsuario.Text, txtContrasenna.Text);
             if (usuario != null)
             {
-                Response.Redirect("Index.aspx");
+                if(usuario.Tipo == 1)
+                {
+                    Response.Redirect("HomeEstudiante.aspx");
+                }
+                else
+                {
+                    if(usuario.Tipo == 2)
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
+                }
             }
             else
             {

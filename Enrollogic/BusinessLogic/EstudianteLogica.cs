@@ -30,7 +30,7 @@ namespace BusinessLogic
         public Estudiante craerEstudiante(string carrera, int id, string nombre, string apellido, string correo, int telefono, int tipo, string nombreUsuario, string contrasenna)
         {
             if(buscarEstudiate(id) == null){
-                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NomnbreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @correo, @type, @nombreUsuario, @contrasenna)";
+                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NombreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @telefono, @tipo, @nombreUsuario, @contrasenna)";
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
                     var rowsUsuario = conn.Execute(sql, new

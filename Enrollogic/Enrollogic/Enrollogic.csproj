@@ -84,6 +84,8 @@
     <Content Include="fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
     <Content Include="fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
     <Content Include="fonts\montserrat\OFL.txt" />
+    <Content Include="HomeEstudiante.aspx" />
+    <Content Include="HomeProfesor.aspx" />
     <Content Include="HomeSAdmin.aspx" />
     <Content Include="images\about.jpg" />
     <Content Include="images\acercadeulacit.jpg" />
@@ -167,6 +169,7 @@
     <Content Include="images\ulacit_icon.png" />
     <Content Include="images\video.jpg" />
     <Content Include="Index.aspx" />
+    <Content Include="InformacionPersonal.aspx" />
     <Content Include="js\acerca.js" />
     <Content Include="js\blog.js" />
     <Content Include="js\carrera.js" />
@@ -205,6 +208,7 @@
     <Content Include="plugins\parallax-js-master\parallax.min.js" />
     <Content Include="plugins\progressbar\progressbar.min.js" />
     <Content Include="plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="Preferencias.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="styles\about.css" />
     <Content Include="styles\about_responsive.css" />
@@ -313,6 +317,20 @@
     <Compile Include="CrearProfesor.aspx.designer.cs">
       <DependentUpon>CrearProfesor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HomeEstudiante.aspx.cs">
+      <DependentUpon>HomeEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeEstudiante.aspx.designer.cs">
+      <DependentUpon>HomeEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeProfesor.aspx.cs">
+      <DependentUpon>HomeProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeProfesor.aspx.designer.cs">
+      <DependentUpon>HomeProfesor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomeSAdmin.aspx.cs">
       <DependentUpon>HomeSAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -327,12 +345,26 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InformacionPersonal.aspx.cs">
+      <DependentUpon>InformacionPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InformacionPersonal.aspx.designer.cs">
+      <DependentUpon>InformacionPersonal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Preferencias.aspx.cs">
+      <DependentUpon>Preferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Preferencias.aspx.designer.cs">
+      <DependentUpon>Preferencias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prueba.aspx.cs">

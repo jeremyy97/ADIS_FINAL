@@ -10,7 +10,7 @@
 namespace Enrollogic {
     
     
-    public partial class CrearUsuarios {
+    public partial class InformacionPersonal {
         
         /// <summary>
         /// form1 control.
@@ -20,6 +20,15 @@ namespace Enrollogic {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// UsuarioVigente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UsuarioVigente;
         
         /// <summary>
         /// txtId control.
@@ -67,40 +76,22 @@ namespace Enrollogic {
         protected global::System.Web.UI.WebControls.TextBox txtTelefono;
         
         /// <summary>
-        /// txtUsuario control.
+        /// btnActualizarInformacion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsuario;
+        protected global::System.Web.UI.WebControls.Button btnActualizarInformacion;
         
         /// <summary>
-        /// txtContrasenna control.
+        /// Cancelar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtContrasenna;
-        
-        /// <summary>
-        /// txtCarrera control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCarrera;
-        
-        /// <summary>
-        /// btnCrearEstudiante control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCrearEstudiante;
+        protected global::System.Web.UI.WebControls.Button Cancelar;
         
         /// <summary>
         /// lblMensaje control.

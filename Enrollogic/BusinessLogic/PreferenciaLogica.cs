@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    class PreferenciaLogica
+    public class PreferenciaLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Preferencia> preferencias;
@@ -22,14 +22,14 @@ namespace BusinessLogic
             }
         }
 
-        public void actualizarPreferencias(int usuario, List<Preferencia> preferencias)
+        public void actualizarPreferencias(int Estudiante, List<Preferencia> preferencias)
         {
-            string sql = "delete from [Enrollogic_DB].[dbo].[Preferencia] where estudiante = @usuario";
+            string sql = "delete from [Enrollogic_DB].[dbo].[Preferencia] where estudiante = @Estudiante";
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 var rowsDelete = conn.Execute(sql, new
                 {
-                    estudiante = usuario
+                    estudiante = Estudiante
                 });
 
 
@@ -38,13 +38,14 @@ namespace BusinessLogic
                 {
                     var rowsAdd = conn.Execute(sql, new
                     {
-                        p.id,
-                        p.estudiante,
-                        p.dia,
-                        p.hora,
-                        p.cede
+                        p.Id,
+                        p.Estudiante,
+                        p.Dia,
+                        p.Hora,
+                        p.Cede
                     });
                 }
+                cargarPreferencias();
             }
         }
 
@@ -53,7 +54,7 @@ namespace BusinessLogic
             List<Preferencia> Lpreferencias = new List<Preferencia>();
             foreach(Preferencia p in preferencias)
             {
-                if(p.id == id)
+                if(p.Id == id)
                 {
                     Lpreferencias.Add(p);
                 }

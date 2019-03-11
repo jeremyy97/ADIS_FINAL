@@ -8,10 +8,19 @@ namespace Entities
 {
     public class Preferencia
     {
-        public int id { set; get; }
-        public int estudiante { set; get; }
-        public string dia { set; get; }
-        public string hora { set; get; }
-        public string cede { set; get; }
+        public int Id { set; get; }
+        public int Estudiante { set; get; }
+        public string Dia { set; get; }
+        public string Hora { set; get; }
+        public string Cede { set; get; }
+
+        public Preferencia(int id, int estudiante, string dia, string hora, string cede)
+        {
+            Id = id;
+            Estudiante = estudiante;
+            Dia = dia;
+            Hora = hora;
+            Cede = cede;
+        }
     }
 }

@@ -148,7 +148,8 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-      <asp:Button ID="btnCrearAdministrativo" runat="server" Text="Crear Administrativo" class="btn btn-primary" />
+      <asp:Button ID="btnCrearAdministrativo" runat="server" Text="Crear Administrativo" class="btn btn-primary" OnClick="btnCrearAdministrativo_Click" /><br />
+      <asp:Label ID="lblMensaje" runat="server" Text="" Font-Bold="True" Font-Size="Medium" ForeColor="Red"></asp:Label>
   </div>
 </div>
 

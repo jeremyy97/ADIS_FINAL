@@ -9,7 +9,7 @@ using Entities;
 
 namespace BusinessLogic
 {
-    class ProfesorLogica
+    public class ProfesorLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Profesor> profesores;
@@ -31,7 +31,7 @@ namespace BusinessLogic
         {
             if (buscarEstudiate(id) == null)
             {
-                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NomnbreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @correo, @type, @nombreUsuario, @contrasenna)";
+                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NombreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @telefono, @tipo, @nombreUsuario, @contrasenna)";
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
                     var rowsUsuario = conn.Execute(sql, new

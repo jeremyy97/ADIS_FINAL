@@ -9,6 +9,7 @@ namespace BusinessLogic
 {
     public class Login
     {
+        public static Usuario usuarioVigente;
         public Usuario LogIn(string usuario, string contrasenna)
         {
             UsuarioLogica logica = new UsuarioLogica();
@@ -16,6 +17,7 @@ namespace BusinessLogic
             {
                 if (u.NombreUsuario == usuario && u.Contrasenna == contrasenna)
                 {
+                    usuarioVigente = u;
                     return u;
                 }
             }

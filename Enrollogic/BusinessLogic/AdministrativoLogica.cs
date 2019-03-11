@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    class AdministrativoLogica
+    public class AdministrativoLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Administrativo> administrativos;
@@ -31,7 +31,7 @@ namespace BusinessLogic
         {
             if (buscarEstudiate(id) == null)
             {
-                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NomnbreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @correo, @type, @nombreUsuario, @contrasenna)";
+                string sql = "insert into [Enrollogic_DB].[dbo].[Usuario] ([Id], [Nombre], [Apellido] , [Correo] , [Telefono] , [Tipo] , [NombreUsuario], [Contrasenna]) VALUES (@id, @nombre, @apellido, @correo, @telefono, @tipo, @nombreUsuario, @contrasenna)";
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
                     var rowsUsuario = conn.Execute(sql, new
@@ -46,7 +46,7 @@ namespace BusinessLogic
                         contrasenna
                     });
 
-                    sql = "insert into [Enrollogic_DB].[dbo].[Administrador] ([Id], [cargo]) VALUES (@id, @cargo)";
+                    sql = "insert into [Enrollogic_DB].[dbo].[Administrativo] ([Id], [cargo]) VALUES (@id, @cargo)";
                     var rowsEstudiante = conn.Execute(sql, new
                     {
                         id,
