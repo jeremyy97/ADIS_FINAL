@@ -29,6 +29,6 @@ namespace Enrollogic
             logica.actualizarInformacion(Convert.ToInt32(txtId.Text), txtCorreo.Text, Convert.ToInt32(txtTelefono.Text));
             BusinessLogic.Login.usuarioVigente = logica.buscarUsuario(BusinessLogic.Login.usuarioVigente.Id);
             lblMensaje.Text = "Informacion actualizada";
-        }
+            }
     }
 }

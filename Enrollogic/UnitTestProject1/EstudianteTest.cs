@@ -15,17 +15,16 @@ namespace UnitTestProject1
             Assert.IsNotNull(EstudianteLogica.estudiantes);
         }
 
-
         [TestMethod]
-        public void actualizaCorreoYTelefono()
+        public void CrearUnEstudiante()
         {
             EstudianteLogica logica = new EstudianteLogica();
-            logica.actualizarInformacion(1,"jcerdas@ulacit.ed.cr",60559692);
+            Estudiante estudiante;
 
-            Estudiante estudiante = logica.buscarEstudiate(1);
+            estudiante = logica.craerEstudiante("123",4,"123","123","123",123,1,"123","123");
 
-            Assert.AreEqual(estudiante.Correo, "jcerdas@ulacit.ed.cr");
-            Assert.AreEqual(estudiante.Telefono, 60559692);
+            Assert.IsNotNull(estudiante);
         }
+
     }
 }

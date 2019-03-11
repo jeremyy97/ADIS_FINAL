@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    /// <summary>
+    /// Entidad Estudiante, hereda de Usuairio
+    /// </summary>
     public class Estudiante : Usuario
     {
         public string Carrera { set; get; }

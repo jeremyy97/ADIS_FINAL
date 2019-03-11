@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    /// <summary>
+    /// Entidad de super Administrador
+    /// </summary>
     public class SuperAdmin
     {
         public string Usuario { set; get; }

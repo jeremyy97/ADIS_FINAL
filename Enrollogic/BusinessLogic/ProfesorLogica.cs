@@ -9,6 +9,9 @@ using Entities;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica de Profesor, realiza la conexion a la base de datos y creacion de profesor
+    /// </summary>
     public class ProfesorLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";

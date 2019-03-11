@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica de administrador, realiza la conexion a la base de datos y creacion de administrativos
+    /// </summary>
     public class AdministrativoLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";

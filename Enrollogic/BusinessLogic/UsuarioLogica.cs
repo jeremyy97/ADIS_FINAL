@@ -9,6 +9,9 @@ using Dapper;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica, de usuario, realiza la conexion a la base de datos, busca y actualiza la informacion del usuario
+    /// </summary>
     public class UsuarioLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";

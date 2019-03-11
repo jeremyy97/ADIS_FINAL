@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica de super administrador, realiza la conexion en la base de datos
+    /// </summary>
     public class SAdminLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
@@ -18,6 +21,12 @@ namespace BusinessLogic
             
         }
 
+        /// <summary>
+        /// realiza la busqueda del super admin con los registros de la base de datos
+        /// </summary>
+        /// <returns>
+        /// devuleve el admin en caso de ser encontrado
+        /// </returns>
         public SuperAdmin buscarSAdmin(string usuario, string contrasenna)
         {
             using (SqlConnection conn = new SqlConnection(connString))

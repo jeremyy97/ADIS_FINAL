@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    /// <summary>
+    /// Entidad preferencia, tiene relacion con Estudiante
+    /// </summary>
     public class Preferencia
     {
         public int Id { set; get; }

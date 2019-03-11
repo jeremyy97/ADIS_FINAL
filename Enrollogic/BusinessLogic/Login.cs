@@ -7,9 +7,19 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica de inicio de sesion para todos los usuarios
+    /// </summary>
     public class Login
     {
         public static Usuario usuarioVigente;
+
+        /// <summary>
+        /// Verifica el usuario y contrasena con los registros de la base de datos
+        /// </summary>
+        /// <returns>
+        /// devuleve el Usuario en caso de ser encontrado
+        /// </returns>
         public Usuario LogIn(string usuario, string contrasenna)
         {
             UsuarioLogica logica = new UsuarioLogica();

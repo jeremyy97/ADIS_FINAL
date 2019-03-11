@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    /// <summary>
+    /// Entidad Usuario, clase padre de Estudiante, Profesor y Administrativo
+    /// </summary>
     public class Usuario
     {
         public int Id { set; get; }

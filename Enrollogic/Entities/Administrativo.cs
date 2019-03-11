@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    /// <summary>
+    /// Entidad Administrativo, hereda de Usuario
+    /// </summary>
     public class Administrativo : Usuario
     {
         public string Cargo { set; get; }

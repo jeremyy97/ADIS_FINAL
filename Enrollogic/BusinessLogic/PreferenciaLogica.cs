@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
+    /// <summary>
+    /// Logica de Preferencias, realiza la conexion a la base de datos y actualiazacion de preferencias
+    /// </summary>
     public class PreferenciaLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
