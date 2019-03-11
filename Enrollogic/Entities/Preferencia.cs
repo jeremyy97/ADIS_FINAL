@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    class Preferencia
+    public class Preferencia
     {
-        int id { set; get; }
-        int estudiante { set; get; }
-        string dia { set; get; }
-        string hora { set; get; }
-        string cede { set; get; }
+        public int id { set; get; }
+        public int estudiante { set; get; }
+        public string dia { set; get; }
+        public string hora { set; get; }
+        public string cede { set; get; }
     }
 }

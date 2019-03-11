@@ -110,3 +110,8 @@ C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\obj\Debug\Enrol
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\obj\Debug\Enrollogic.csproj.CopyComplete
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\obj\Debug\Enrollogic.dll
 C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\obj\Debug\Enrollogic.pdb
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\bin\BusinessLogic.dll
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\bin\Entities.dll
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\bin\BusinessLogic.pdb
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\bin\BusinessLogic.dll.config
+C:\Users\Jerem\Documents\GitHub\ADIS_FINAL\Enrollogic\Enrollogic\bin\Entities.pdb

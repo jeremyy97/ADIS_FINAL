@@ -70,5 +70,20 @@ namespace BusinessLogic
             }
             return null;
         }
+
+        public void actualizarInformacion(int id, string correo, int telefono)
+        {
+            string sql = "update [Enrollogic_DB].[dbo].[Usuario] set Correo = @correo, Telefono = @telefono where Id = @id";
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                var rows = conn.Execute(sql, new
+                {
+                    Id = id,
+                    Correo = correo,
+                    Telefono = telefono
+                });
+            }
+            cargarEstudiantes();
+        }
     }
 }
