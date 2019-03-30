@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrativo.cs" />
+    <Compile Include="Carrera.cs" />
+    <Compile Include="Curso.cs" />
     <Compile Include="Estudiante.cs" />
     <Compile Include="Preferencia.cs" />
     <Compile Include="Profesor.cs" />
