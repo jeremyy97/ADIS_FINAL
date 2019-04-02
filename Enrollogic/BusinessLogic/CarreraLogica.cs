@@ -9,7 +9,7 @@ using Entities;
 
 namespace BusinessLogic
 {
-    class CarreraLogica
+    public class CarreraLogica
     {
         string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Carrera> carreras = new List<Carrera>();
@@ -23,7 +23,7 @@ namespace BusinessLogic
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                carreras = conn.Query<Carrera>("Select id, nombre, descripcion from Carrera;").ToList();
+                carreras = conn.Query<Carrera>("Select id, nombre, descripcion from Carrera order by nombre;").ToList();
             }
         }
 

@@ -26,7 +26,7 @@
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-34">
-						Iniciar Sesion
+						Iniciar Sesión
 					</span>
 					
 					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
@@ -39,7 +39,7 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-                        <asp:Button class="login100-form-btn" ID="btnIniciarSesion" runat="server" Text="IniciarSesion" OnClick="btnIniciarSesion_Click" />
+                        <asp:Button class="login100-form-btn" ID="btnIniciarSesion" runat="server" Text="Iniciar Sesión" OnClick="btnIniciarSesion_Click" />
 					</div>
 
 					<div class="w-full text-center p-t-27 p-b-239">

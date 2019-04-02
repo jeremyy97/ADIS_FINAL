@@ -34,7 +34,7 @@ namespace Enrollogic
                     }
                     else
                     {
-                        Response.Redirect("HomeProfesor.aspx");
+                        Response.Redirect("HomeAdministrativo.aspx");
                     }
                 }
             }

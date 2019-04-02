@@ -71,12 +71,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Acerca.aspx" />
+    <Content Include="AgregarCarrera.aspx" />
+    <Content Include="AgregarCurso.aspx" />
     <Content Include="Carrera.aspx" />
     <Content Include="Carreras.aspx" />
     <Content Include="Contacto.aspx" />
     <Content Include="CrearAdministrativo.aspx" />
     <Content Include="CrearEstudiante.aspx" />
     <Content Include="CrearProfesor.aspx" />
+    <Content Include="EditarCurso.aspx" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
@@ -84,6 +87,7 @@
     <Content Include="fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
     <Content Include="fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
     <Content Include="fonts\montserrat\OFL.txt" />
+    <Content Include="HomeAdministrativo.aspx" />
     <Content Include="HomeEstudiante.aspx" />
     <Content Include="HomeProfesor.aspx" />
     <Content Include="HomeSAdmin.aspx" />
@@ -275,6 +279,20 @@
     <Compile Include="Acerca.aspx.designer.cs">
       <DependentUpon>Acerca.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AgregarCarrera.aspx.cs">
+      <DependentUpon>AgregarCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarCarrera.aspx.designer.cs">
+      <DependentUpon>AgregarCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCurso.aspx.cs">
+      <DependentUpon>AgregarCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarCurso.aspx.designer.cs">
+      <DependentUpon>AgregarCurso.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Carrera.aspx.cs">
       <DependentUpon>Carrera.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -316,6 +334,20 @@
     </Compile>
     <Compile Include="CrearProfesor.aspx.designer.cs">
       <DependentUpon>CrearProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarCurso.aspx.cs">
+      <DependentUpon>EditarCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarCurso.aspx.designer.cs">
+      <DependentUpon>EditarCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeAdministrativo.aspx.cs">
+      <DependentUpon>HomeAdministrativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeAdministrativo.aspx.designer.cs">
+      <DependentUpon>HomeAdministrativo.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomeEstudiante.aspx.cs">
       <DependentUpon>HomeEstudiante.aspx</DependentUpon>

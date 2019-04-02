@@ -26,7 +26,7 @@ namespace BusinessLogic
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                profesores = conn.Query<Profesor>("Select p.facultad, u.id, u.nombre, u.apellido, u.correo, u.telefono, u.tipo, u.NombreUsuario, u.contrasenna from Profesor p, Usuario u where tipo = 2;").ToList();
+                profesores = conn.Query<Profesor>("Select p.facultad, u.id, u.nombre, u.apellido, u.correo, u.telefono, u.tipo, u.NombreUsuario, u.contrasenna from Profesor p, Usuario u where tipo = 2 AND p.id = u.Id order by u.nombre;").ToList();
             }
         }
 
