@@ -70,7 +70,7 @@
                             <ul class="d-flex flex-row align-items-start justify-content-start">
                                 <li><a></a>
                                     <asp:Label ID="lblUsuarioVigente" runat="server" Text="Label"></asp:Label></li>
-                                <li><a href="Login.aspx">CerrarSesion</a></li>
+                                <li><a href="Login.aspx">Cerrar Sesión</a></li>
                             </ul>
                         </div>
                     </div>

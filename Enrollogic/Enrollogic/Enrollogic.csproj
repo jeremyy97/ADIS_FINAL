@@ -73,6 +73,7 @@
     <Content Include="Acerca.aspx" />
     <Content Include="AgregarCarrera.aspx" />
     <Content Include="AgregarCurso.aspx" />
+    <Content Include="Blog.aspx" />
     <Content Include="Carrera.aspx" />
     <Content Include="Carreras.aspx" />
     <Content Include="Contacto.aspx" />
@@ -174,6 +175,7 @@
     <Content Include="images\video.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="InformacionPersonal.aspx" />
+    <Content Include="Inicio.aspx" />
     <Content Include="js\acerca.js" />
     <Content Include="js\blog.js" />
     <Content Include="js\carrera.js" />
@@ -293,6 +295,13 @@
     <Compile Include="AgregarCurso.aspx.designer.cs">
       <DependentUpon>AgregarCurso.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Carrera.aspx.cs">
       <DependentUpon>Carrera.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -383,6 +392,13 @@
     </Compile>
     <Compile Include="InformacionPersonal.aspx.designer.cs">
       <DependentUpon>InformacionPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

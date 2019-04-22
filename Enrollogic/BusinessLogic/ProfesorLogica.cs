@@ -14,7 +14,7 @@ namespace BusinessLogic
     /// </summary>
     public class ProfesorLogica
     {
-        string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
+        string connString = "server=DESKTOP-NJ5A176\SQLEXPRESS01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Profesor> profesores;
 
         public ProfesorLogica()

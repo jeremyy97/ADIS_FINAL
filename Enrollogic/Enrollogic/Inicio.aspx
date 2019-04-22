@@ -1,10 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeAdministrativo.aspx.cs" Inherits="Enrollogic.HomeAdministrativo" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Administrativo</title>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enrollogic</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Enrollogic - Una plataforma para los estudiantes de ULACIT">
@@ -19,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="super_container">
+
+    <div class="super_container">
         <div class="super_overlay"></div>
 
         <!-- Header -->
@@ -60,9 +57,8 @@
                     </div>
                     <div class="log_reg d-flex flex-row align-items-center justify-content-start">
                         <ul class="d-flex flex-row align-items-start justify-content-start">
-                            <li><a></a>
-                                <asp:Label ID="lblUsuarioVigente" runat="server" Text="Label"></asp:Label></li>
-                            <li><a href="Login.aspx">Cerrar Sesión</a></li>
+                            <li><a href="login.aspx">Login</a></li>
+                            <li><a href="#">Register</a></li>
                         </ul>
                     </div>
                 </div>
@@ -73,12 +69,14 @@
                 <div class="logo"><a href="#">Enrollogic<span></span></a></div>
                 <nav class="main_nav">
                     <ul class="d-flex flex-row align-items-start justify-content-start">
-                        <li class="active"><a href="HomeAdministrativo.aspx">Inicio</a></li>
-                        <li><a href="AgregarCarrera.aspx">Agregar carrera</a></li>
-                        <li><a href="AgregarCurso.aspx">Agregar Curso</a></li>
-                        <li><a href="EditarCurso.aspx">Editar Curso</a></li>
+                        <li class="active"><a href="Inicio.aspx">Inicio</a></li>
+                        <li><a href="Acerca.aspx">Acerca de</a></li>
+                        <li><a href="Carreras.aspx">Carreras</a></li>
+                        <li><a href="Blog.aspx">Noticias</a></li>
+                        <li><a href="Contacto.aspx">Contacto</a></li>
                     </ul>
                 </nav>
+                <div class="submit ml-auto"><a href="Carreras.aspx">Buscar carreras</a></div>
                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
             </div>
 
@@ -91,17 +89,17 @@
             <div class="menu_log_reg">
                 <div class="log_reg d-flex flex-row align-items-center justify-content-end">
                     <ul class="d-flex flex-row align-items-start justify-content-start">
-                        <li><a href="login.html">Login</a></li>
+                        <li><a href="login.aspx">Login</a></li>
                         <li><a href="#">Register</a></li>
                     </ul>
                 </div>
                 <nav class="menu_nav">
                     <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="acerca.html">Acerca de</a></li>
-                        <li><a href="carreras.html">Carreras</a></li>
-                        <li><a href="blog.html">Noticias</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="Inicio.aspx">Inicio</a></li>
+                        <li><a href="Acerca.aspx">Acerca de</a></li>
+                        <li><a href="Carreras.aspx">Carreras</a></li>
+                        <li><a href="Blog.aspx">Noticias</a></li>
+                        <li><a href="Contacto.aspx">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -202,147 +200,7 @@
     </div> -->
         <!-- Featured -->
 
-        <div class="featured">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section_title_container text-center">
-                            <div class="section_subtitle">Acreditadas</div>
-                            <div class="section_title"><h1>Licenciaturas</h1></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row featured_row">
 
-                    <!-- Featured Item -->
-                    <div class="col-lg-4">
-                        <div class="listing">
-                            <div class="listing_image">
-                                <div class="listing_image_container">
-                                    <img src="images/listing_1.jpg" alt="">
-                                </div>
-                                <div class="tags d-flex flex-row align-items-start justify-content-start flex-wrap">
-                                    <div class="tag tag_house"><a href="carreras.html">house</a></div>
-                                    <div class="tag tag_sale"><a href="carreras.html">for sale</a></div>
-                                </div>
-                                <div class="tag_price listing_price">$ 217 346</div>
-                            </div>
-                            <div class="listing_content">
-                                <div class="prop_location listing_location d-flex flex-row align-items-start justify-content-start">
-                                    <img src="images/icon_1.png" alt="">
-                                    <a href="carrera.html">280 Doe Meadow Drive Landover, MD 20785</a>
-                                </div>
-                                <div class="listing_info">
-                                    <ul class="d-flex flex-row align-items-center justify-content-start flex-wrap">
-                                        <li class="property_area d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_2.png" alt="">
-                                            <span>2500 sq ft</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_3.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_4.png" alt="">
-                                            <span>5</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_5.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Featured Item -->
-                    <div class="col-lg-4">
-                        <div class="listing">
-                            <div class="listing_image">
-                                <div class="listing_image_container">
-                                    <img src="images/listing_2.jpg" alt="">
-                                </div>
-                                <div class="tags d-flex flex-row align-items-start justify-content-start flex-wrap">
-                                    <div class="tag tag_house"><a href="carreras.html">house</a></div>
-                                    <div class="tag tag_rent"><a href="carreras.html">for rent</a></div>
-                                </div>
-                                <div class="tag_price listing_price">$ 515 957</div>
-                            </div>
-                            <div class="listing_content">
-                                <div class="prop_location listing_location d-flex flex-row align-items-start justify-content-start">
-                                    <img src="images/icon_1.png" alt="">
-                                    <a href="carrera.html">4812 Haul Road Saint Paul, MN 55102</a>
-                                </div>
-                                <div class="listing_info">
-                                    <ul class="d-flex flex-row align-items-center justify-content-start flex-wrap">
-                                        <li class="property_area d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_2.png" alt="">
-                                            <span>1234 sq ft</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_3.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_4.png" alt="">
-                                            <span>5</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_5.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Featured Item -->
-                    <div class="col-lg-4">
-                        <div class="listing">
-                            <div class="listing_image">
-                                <div class="listing_image_container">
-                                    <img src="images/listing_3.jpg" alt="">
-                                </div>
-                                <div class="tags d-flex flex-row align-items-start justify-content-start flex-wrap">
-                                    <div class="tag tag_house"><a href="carreras.html">house</a></div>
-                                    <div class="tag tag_sale"><a href="carreras.html">for sale</a></div>
-                                </div>
-                                <div class="tag_price listing_price">$ 375 255</div>
-                            </div>
-                            <div class="listing_content">
-                                <div class="prop_location listing_location d-flex flex-row align-items-start justify-content-start">
-                                    <img src="images/icon_1.png" alt="">
-                                    <a href="carrera.html">4067 Wolf Pen Road Mountain View, CA 94041</a>
-                                </div>
-                                <div class="listing_info">
-                                    <ul class="d-flex flex-row align-items-center justify-content-start flex-wrap">
-                                        <li class="property_area d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_2.png" alt="">
-                                            <span>2000 sq ft</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_3.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_4.png" alt="">
-                                            <span>5</span>
-                                        </li>
-                                        <li class="d-flex flex-row align-items-center justify-content-start">
-                                            <img src="images/icon_5.png" alt="">
-                                            <span>2</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
 
         <!-- Map Section -->
 
@@ -392,67 +250,7 @@
             </div>
         </div>
 
-        <!-- Testimonials -->
 
-        <div class="testimonials container_reset">
-            <div class="container">
-                <div class="row row-eq-height">
-
-                    <!-- Testimonials Image -->
-                    <div class="col-xl-6">
-                        <div class="testimonials_image">
-                            <div class="background_image" style="background-image:url(images/testimonials.jpg)"></div>
-                            <div class="testimonials_image_overlay"></div>
-                        </div>
-                    </div>
-
-                    <!-- Testimonials Content -->
-                    <div class="col-xl-6">
-                        <div class="testimonials_content">
-                            <div class="section_title_container">
-                                <div class="section_subtitle">the best deals</div>
-                                <div class="section_title"><h1>Clients testimonials</h1></div>
-                            </div>
-
-                            <!-- Testimonials Slider -->
-                            <div class="testimonials_slider_container">
-                                <div class="owl-carousel owl-theme test_slider">
-
-                                    <!-- Slide -->
-                                    <div class="test_slide">
-                                        <div class="test_quote">"They helped us find our home"</div>
-                                        <div class="test_text">
-                                            <p>Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in. Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in.</p>
-                                        </div>
-                                        <div class="test_author"><a href="#">Cristinne Smith</a>, Client</div>
-                                    </div>
-
-                                    <!-- Slide -->
-                                    <div class="test_slide">
-                                        <div class="test_quote">"They helped us find our home"</div>
-                                        <div class="test_text">
-                                            <p>Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in. Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in.</p>
-                                        </div>
-                                        <div class="test_author"><a href="#">Cristinne Smith</a>, Client</div>
-                                    </div>
-
-                                    <!-- Slide -->
-                                    <div class="test_slide">
-                                        <div class="test_quote">"They helped us find our home"</div>
-                                        <div class="test_text">
-                                            <p>Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in. Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in.</p>
-                                        </div>
-                                        <div class="test_author"><a href="#">Cristinne Smith</a>, Client</div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
 
         <!-- Footer -->
 
@@ -502,11 +300,11 @@
                             <div class="footer_links">
                                 <div class="footer_title">Acceso Rápido</div>
                                 <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="acerca.html">Acerca de</a></li>
-                                    <li><a href="carreras.html">Carreras</a></li>
-                                    <li><a href="blog.html">Noticias</a></li>
-                                    <li><a href="contacto.html">Contacto</a></li>
+                                    <li><a href="Inicio.aspx">Inicio</a></li>
+                                    <li><a href="Acerca.aspx">Acerca de</a></li>
+                                    <li><a href="Carreras.aspx">Carreras</a></li>
+                                    <li><a href="Blog.aspx">Noticias</a></li>
+                                    <li><a href="Contacto.aspx">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -546,6 +344,5 @@
             <script src="plugins/parallax-js-master/parallax.min.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
             <script src="js/custom.js"></script>
-    </form>
 </body>
 </html>
