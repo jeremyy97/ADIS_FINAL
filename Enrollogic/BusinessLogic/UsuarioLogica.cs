@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
+using System.Configuration;
+using System.Web.Configuration;
 
 namespace BusinessLogic
 {
@@ -14,7 +16,7 @@ namespace BusinessLogic
     /// </summary>
     public class UsuarioLogica
     {
-        string connString = "server=DESKTOP-NJ5A176\SQLEXPRESS01 ; database=Enrollogic_DB ; integrated security = true";
+        string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Usuario> usuarios;
 
         public UsuarioLogica()

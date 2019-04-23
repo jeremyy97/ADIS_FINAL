@@ -41,7 +41,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +57,7 @@
     <Compile Include="CursoLogica.cs" />
     <Compile Include="EstudianteLogica.cs" />
     <Compile Include="Login.cs" />
+    <Compile Include="MatriculaLogicacs.cs" />
     <Compile Include="PreferenciaLogica.cs" />
     <Compile Include="ProfesorLogica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

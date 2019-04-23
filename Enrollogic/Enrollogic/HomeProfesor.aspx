@@ -73,11 +73,9 @@
                 <div class="logo"><a href="#">Enrollogic<span></span></a></div>
                 <nav class="main_nav">
                     <ul class="d-flex flex-row align-items-start justify-content-start">
-                        <li class="active"><a href="HomeEstudiante.aspx">Inicio</a></li>
+                        <li class="active"><a href="HomeProfesor.aspx">Inicio</a></li>
                         <li><a href="InformacionPersonal.aspx">Informacion Personal</a></li>
-                        <li><a href="carreras.html">Carreras</a></li>
-                        <li><a href="blog.html">Noticias</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="AsignarNotas.aspx">Asignar Notas</a></li>
                     </ul>
                 </nav>
                 <div class="submit ml-auto"><a href="carreras.html">Buscar carreras</a></div>

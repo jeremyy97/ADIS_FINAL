@@ -167,7 +167,35 @@
                             <asp:DropDownList ID="ddlProfesores" runat="server" class="form-control"></asp:DropDownList>
                         </div>
                     </div>
+                    
+                    <!-- Select Basic -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="sbDia">Asignar Dia:</label>
+                        <div class="col-md-4">
+                            <asp:DropDownList ID="ddlDias" runat="server" class="form-control">
+                                <asp:ListItem>Lunes</asp:ListItem>
+                                <asp:ListItem>Martes</asp:ListItem>
+                                <asp:ListItem>Miercoles</asp:ListItem>
+                                <asp:ListItem>Jueves</asp:ListItem>
+                                <asp:ListItem>Viernes</asp:ListItem>
+                                <asp:ListItem>Sabado</asp:ListItem>
+                                <asp:ListItem>Domingo</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
 
+                    <!-- Select Basic -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="sbProfesor">Asignar Hora:</label>
+                        <div class="col-md-4">
+                            <asp:DropDownList ID="ddlHoras" runat="server" class="form-control">
+                                <asp:ListItem Selected="True">8:00am - 11:00am</asp:ListItem>
+                                <asp:ListItem>11:00am - 2:00pm</asp:ListItem>
+                                <asp:ListItem>2:00pm - 5:00pm</asp:ListItem>
+                                <asp:ListItem>6:30pm - 9:30pm</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
                     <!-- Button (Double) -->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="btnGuardar"></label>

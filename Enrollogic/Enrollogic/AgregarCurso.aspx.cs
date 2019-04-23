@@ -37,7 +37,7 @@ namespace Enrollogic
 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
-            if(logica.CrearCurso(Convert.ToInt32(txtId.Text), txtCodigo.Text, txtNombre.Text, ddlCarreras.SelectedItem.Value, txtPeriodo.Text, txtDescripcion.Text, txtAula.Text, ddlProfesores.SelectedItem.Value) != null)
+            if(logica.CrearCurso(Convert.ToInt32(txtId.Text), txtCodigo.Text, txtNombre.Text, ddlCarreras.SelectedItem.Text, txtPeriodo.Text, txtDescripcion.Text, txtAula.Text, ddlProfesores.SelectedItem.Value, ddlDias.SelectedItem.Value, ddlHoras.SelectedItem.Value) != null)
             {
                 lblMensaje.Text = "El curso " + txtNombre.Text + " fue creado con éxito en el sistema";
             }

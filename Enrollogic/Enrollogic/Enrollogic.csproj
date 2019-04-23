@@ -73,6 +73,7 @@
     <Content Include="Acerca.aspx" />
     <Content Include="AgregarCarrera.aspx" />
     <Content Include="AgregarCurso.aspx" />
+    <Content Include="AsignarNotas.aspx" />
     <Content Include="Blog.aspx" />
     <Content Include="Carrera.aspx" />
     <Content Include="Carreras.aspx" />
@@ -185,6 +186,7 @@
     <Content Include="js\jquery-3.3.1.min.js" />
     <Content Include="js\login.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Matricular.aspx" />
     <Content Include="plugins\colorbox\colorbox.css" />
     <Content Include="plugins\colorbox\images\border.png" />
     <Content Include="plugins\colorbox\images\controls.png" />
@@ -294,6 +296,13 @@
     </Compile>
     <Compile Include="AgregarCurso.aspx.designer.cs">
       <DependentUpon>AgregarCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarNotas.aspx.cs">
+      <DependentUpon>AsignarNotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarNotas.aspx.designer.cs">
+      <DependentUpon>AsignarNotas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Blog.aspx.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
@@ -406,6 +415,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Matricular.aspx.cs">
+      <DependentUpon>Matricular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Matricular.aspx.designer.cs">
+      <DependentUpon>Matricular.aspx</DependentUpon>
     </Compile>
     <Compile Include="Preferencias.aspx.cs">
       <DependentUpon>Preferencias.aspx</DependentUpon>

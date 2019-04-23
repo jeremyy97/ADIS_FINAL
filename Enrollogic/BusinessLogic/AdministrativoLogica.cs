@@ -14,7 +14,7 @@ namespace BusinessLogic
     /// </summary>
     public class AdministrativoLogica
     {
-        string connString = "server=DESKTOP-NJ5A176\SQLEXPRESS01 ; database=Enrollogic_DB ; integrated security = true";
+        string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Administrativo> administrativos;
 
         public AdministrativoLogica()

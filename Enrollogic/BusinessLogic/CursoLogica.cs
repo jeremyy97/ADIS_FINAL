@@ -11,7 +11,7 @@ namespace BusinessLogic
 {
     public class CursoLogica
     {
-        string connString = "server=DESKTOP-NJ5A176\SQLEXPRESS01 ; database=Enrollogic_DB ; integrated security = true";
+        string connString = "server=LAPTOP-BCKLRFPR\\MSSQLSERVER01 ; database=Enrollogic_DB ; integrated security = true";
         public static List<Curso> cursos = new List<Curso>();
 
         public CursoLogica()
@@ -23,14 +23,14 @@ namespace BusinessLogic
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                cursos = conn.Query<Curso>("Select c.id, c.codigo, c.nombre , ca.nombre as carrera, c.periodo, c.descripcion, c.aula, concat(concat(p.nombre, ' '), p.Apellido)  as profesor from Curso c, usuario p, Carrera ca where c.profesor = p.Id AND c.carrera = ca.id;").ToList();
+                cursos = conn.Query<Curso>("Select c.id, c.codigo, c.nombre , c.carrera, c.periodo, c.descripcion, c.aula, concat(concat(p.nombre, ' '), p.Apellido)  as profesor, dia, hora from Curso c, usuario p where c.profesor = p.Id AND c.id != 3 order by dia;").ToList();
             }
         }
 
-        public Curso CrearCurso(int id, string codigo, string nombre, string carrera, string periodo, string descripcion, string aula, string profesor)
+        public Curso CrearCurso(int id, string codigo, string nombre, string carrera, string periodo, string descripcion, string aula, string profesor,string dia, string hora)
         {
-            Curso curso = new Curso(id, codigo, nombre, carrera, periodo, descripcion, aula, profesor);
-            string sql = "insert into [Enrollogic_DB].[dbo].[Curso] ([Id], [Codigo], [Nombre] , [Carrera] , [Periodo] , [Descripcion] , [Aula], [Profesor]) VALUES (@id, @codigo, @nombre, @carrera, @periodo, @descripcion, @aula, @profesor)";
+            Curso curso = new Curso(id, codigo, nombre, carrera, periodo, descripcion, aula, profesor, dia, hora);
+            string sql = "insert into [Enrollogic_DB].[dbo].[Curso] ([Id], [Codigo], [Nombre] , [Carrera] , [Periodo] , [Descripcion] , [Aula], [Profesor], [Dia], [Hora]) VALUES (@id, @codigo, @nombre, @carrera, @periodo, @descripcion, @aula, @profesor, @dia, @hora)";
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 var rowsUsuario = conn.Execute(sql, new
@@ -42,7 +42,9 @@ namespace BusinessLogic
                     curso.Periodo,
                     curso.Descripcion,
                     curso.Aula,
-                    curso.Profesor
+                    curso.Profesor,
+                    curso.Dia,
+                    curso.Hora
                 });
             }
             CargarCursos();

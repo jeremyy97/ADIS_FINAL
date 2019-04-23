@@ -76,8 +76,7 @@
                         <li class="active"><a href="HomeEstudiante.aspx">Inicio</a></li>
                         <li><a href="InformacionPersonal.aspx">Informacion Personal</a></li>
                         <li><a href="Preferencias.aspx">Preferencias</a></li>
-                        <li><a href="blog.html">Noticias</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="Matricular.aspx">Matricula</a></li>
                     </ul>
                 </nav>
                 <div class="submit ml-auto"><a href="carreras.html">Buscar carreras</a></div>
